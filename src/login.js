@@ -4,7 +4,7 @@ import { usuarios } from './resources/usuarios.js';
  * Função para realizar login.
  * @param {String} email 
  * @param {String} senha 
- * @returns 
+ * @returns {String} Mensagem informando o resultado do login - Sucesso, expirado, ou erro de credenciais.  
  */
 export function fazerLogin(email, senha) {
     if (!email || !senha) {
