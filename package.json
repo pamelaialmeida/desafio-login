@@ -1,0 +1,25 @@
+{
+  "name": "desafiologin",
+  "version": "1.0.0",
+  "description": "## Orientações: Pré-requisitos: Declare um vetor contendo informações sobre usuários de um site, contendo as propriedades: id, nome, email, senha e expirado (boleano, pode ser true ou false). Adicione ao menos um dos usuarios como expirado sendo true.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamelaialmeida/desafio-login.git"
+  },
+  "keywords": [],
+  "author": "Pâmela Inacio Almeida",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pamelaialmeida/desafio-login/issues"
+  },
+  "homepage": "https://github.com/pamelaialmeida/desafio-login#readme",
+  "dependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
+  }
+}
