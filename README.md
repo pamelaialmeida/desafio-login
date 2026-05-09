@@ -20,6 +20,8 @@ fazerLogin('credencial@expirada.com', 'senhaCerta123'); -> Renove suas credencia
 4. Após init finalizar, para rodar os testes e gerar relatório mochawesome, rode o comando "npm run test"
 
 ## Estrutura do Projeto:
+
+```bash
 desafio-login/                                  --> projeto
 │
 ├── mochawesome-report/                         --> diretório com relatório html gerado pelo mocha com os resultados dos testes
@@ -36,3 +38,4 @@ desafio-login/                                  --> projeto
 ├── package-lock.json                           --> arquivo com versões das dependências instaladas/usadas no projeto 
 ├── package.json                                --> arquivo com dependências do projeto, scripts e metadados do projeto
 ├── README.md                                   --> arquivo de documentação do projeto
+```
